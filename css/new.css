@@ -1,0 +1,72 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* name selector */
+body{
+    background-color: rgb(193, 63, 232);
+    color: #fff;
+}
+/* id selector */
+#admin-box{
+    width: 50%;
+    border: 2px solid;
+    margin: 10% auto;
+    text-align: center;
+    padding: 30px;
+}
+/* combinator selector */
+#admin-box h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 10px 0px;
+    font-family:'Courier New', Courier, monospace
+
+}
+/* grouping selector */
+label,
+input{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400px;
+}
+input{
+    background-color: transparent;
+    border: 2px solid;
+    color:#fff
+}
+input[type=submit]{
+    margin: 15px auto;
+}
+/* pseudo class selector */
+input:focus {
+    background-color: #fff;
+    color: blue;
+}
+input[type="submit"]:hover{
+background-color: aquamarine;
+color: blue;
+}
+/* pseudo element selector */
+input::placeholder{
+    color:#fff;
+}
+.page{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page a {
+    font-size: 18px;
+    color: aqua;
+    text-decoration: none;
+}

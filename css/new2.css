@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(226, 28, 216);
+    }
+    h1 {
+        color: rgb(150, 193, 10);
+        text-align: center;
+    }
+    hr{
+        color: rgb(12, 136, 94);
+    }
+    label{
+        color: rgb(34, 222, 140);
+    }
+    p {
+        color: aqua;
+    }
+    a {
+        color: chartreuse;
+        text-decoration: none;
+    }
+    input {
+        color: rgb(219, 214, 125);
+    }
